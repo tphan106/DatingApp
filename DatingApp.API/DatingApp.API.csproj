@@ -1,11 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>da5d8a6f-5796-418d-8cd3-c62b00d93c46</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.8"/>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.8"/>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.6.0"/>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0"/>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0"/>
   </ItemGroup>
 </Project>
